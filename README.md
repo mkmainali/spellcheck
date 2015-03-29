@@ -12,7 +12,7 @@ The implementation comes with a FileReader for training data, which requires a p
 The default tokenizer is whitespace tokenizer. If you want to use your custom tokenizer, then you can provide one that implements the Tokenizer interface. 
 
 ## Filters
-You have option to apply several filters to apply to the tokenizer. Some implementations provided are StopwordFilter, SingleCharacterFilter, NonAlphabetFilter and LowercaseFilter. You can implement your own filter by implementing the Filter interface.
+You have option to apply filters to the tokens emitted by tokenizer. Some implementations provided are StopwordFilter, SingleCharacterFilter, NonAlphabetFilter and LowercaseFilter. You can implement your own filter by implementing the Filter interface.
 
 LowercaseFilter: transforms the characters to lower case
 

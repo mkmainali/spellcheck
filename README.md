@@ -1,5 +1,5 @@
 # spellcheck
-This is a simple spell checking program implemented in Java. The algorithm behind the spell checking is based on one explained by Peter Norvig. For details of the algorithm checkout the following link
+This is a simple spell checking program implemented in Java. The algorithm behind the spell checking is based on one explained by Peter Norvig at the following page:
 
 http://norvig.com/spell-correct.html
 
